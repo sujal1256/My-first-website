@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    position: relative;  /* We have to set one of parent element to relative
+    if we donot set it then it will take 1 */ 
+    margin: 0;
+}
+.under{
+    text-decoration: underline;
+}
+h1{
+    width: 50%; /* doing this text align centre doesnot workout anymore.*/
+/* In that case use can use margin. */
+margin: 0 auto 0 auto; 
+/* if we here we write     0 auto     then it means that top-bottom margin is 0 and left-right margin is auto.(centre)*/
+font-family: 'Dancing Script', cursive;}
+.c1{
+    position: absolute;
+    right: 150px;
+    top: 70px;
+    
+}
+.c2{
+    position: absolute;
+    left: 150px;
+    top:230px;
+}
+.background{
+    background-color: #EFFFFD;
+    position: relative;
+    padding-top: 100px; /* padding top is given because we want to shift all elements that numeber of pixels.  */
+}
+p{
+    font-family: 'Dancing Script', cursive;}
